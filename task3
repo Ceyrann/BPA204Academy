@@ -1,0 +1,19 @@
+namespace ConsoleApp10
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            double maash1 = 1200;
+            double maash2 = 1500;
+            double maash3 = 1000;
+            double maash4 = 1800;
+            double cem = maash1 + maash2 + maash3 + maash4;
+            double orta = cem / 4;
+
+
+            Console.WriteLine("Maashlarin cemi:" + cem);
+            Console.WriteLine("orta:" + orta);
+        }
+    }
+}
